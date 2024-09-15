@@ -78,7 +78,7 @@ export default async function Pricing() {
             <CardContent>
               <p className="my-6 flex items-baseline justify-center gap-x-2">
                 <span className="text-5xl font-bold tracking-tight text-primary">
-                  $10
+                  ₹839
                 </span>
                 <span className="text-sm font-semibold leading-6 tracking-wide text-muted-foreground">
                   /month
