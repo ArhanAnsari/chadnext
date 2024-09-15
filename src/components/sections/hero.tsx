@@ -20,14 +20,14 @@ export default async function Hero() {
     <section>
       <div className="container flex w-full flex-col items-center justify-center space-y-20 py-16 md:py-20 lg:py-24 xl:py-28">
         <div className="mx-auto w-full max-w-2xl ">
-          <a
+          {/*           <a
             href="https://twitter.com/immoinulmoin/status/1661645764697919489"
             title="Follow Updates"
             target="_blank"
             rel="noreferrer"
             className="mx-auto mb-5 flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full bg-blue-100 px-7 py-2 transition-colors duration-300 hover:bg-blue-200"
           >
-            <Icons.twitter className="h-5 w-5 text-blue-700" />
+            <Icons.twitter className="h-5 w-5 text-blue-700" /> */}
             <p className="text-sm font-semibold text-blue-700">
               {scopedT("top")} ChadNext
             </p>
@@ -44,7 +44,7 @@ export default async function Hero() {
             </Link>
             <Link
               className={buttonVariants({ variant: "outline" }) + " gap-x-2"}
-              href="https://github.com/moinulmoin/chadnext"
+              href="https://github.com/ArhanAnsari/chadnext"
               target="_blank"
               rel="noopener noreferrer"
             >
