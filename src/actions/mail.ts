@@ -14,7 +14,7 @@ export const sendWelcomeEmail = async ({
   const temp = ThanksTemp({ userName });
 
   await resend.emails.send({
-    from: `ChadNext App <chadnext@moinulmoin.com>`,
+    from: `ChadNext App <arhanansari2009@gmail.com>`,
     to: toMail,
     subject: subject,
     headers: {
@@ -30,7 +30,7 @@ export const sendOTP = async ({ toMail, code, userName }: SendOTPProps) => {
   const temp = VerificationTemp({ userName, code });
 
   await resend.emails.send({
-    from: `ChadNext App <chadnext@moinulmoin.com>`,
+    from: `ChadNext App <arhanansari2009@gmail.com>`,
     to: toMail,
     subject: subject,
     headers: {
