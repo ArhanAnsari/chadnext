@@ -37,11 +37,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ],
     authors: [
       {
-        name: "moinulmoin",
-        url: "https://moinulmoin.com",
+        name: "Arhan Ansari",
+        url: "https://codewitharhan.infinityfreeapp.com",
       },
     ],
-    creator: "Moinul Moin",
+    creator: "Arhan Ansari",
     openGraph: {
       type: "website",
       locale: locale,
@@ -57,13 +57,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           alt: site.name,
         },
       ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: site.name,
-      description: site.description,
-      images: [siteOgImage],
-      creator: "@immoinulmoin",
     },
     icons: {
       icon: "/favicon.ico",
