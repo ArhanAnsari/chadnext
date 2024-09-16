@@ -14,7 +14,7 @@ import {
 } from "@react-email/components";
 
 const siteUrl =
-  process.env.NEXT_PUBLIC_URL ?? "https://chadnext.moinulmoin.com";
+  process.env.NEXT_PUBLIC_URL ?? "https://chadnext-five.vercel.app/";
 
 interface VerificationTemplateProps {
   userName: string;
