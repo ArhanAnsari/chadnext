@@ -30,7 +30,7 @@ const ThanksTemp: React.FC<Readonly<ThanksTemplateProps>> = ({ userName }) => (
             <Section className="my-5 text-center">
               <Button
                 className="bg-bg-white inline-block rounded-md bg-slate-900 px-6 py-3 text-base text-white"
-                href="https://github.com/moinulmoin/chadnext"
+                href="https://github.com/ArhanAnsari/chadnext"
                 target="_blank"
                 rel="noopener noreferrer"
               >
